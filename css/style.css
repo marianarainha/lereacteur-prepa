@@ -1,18 +1,41 @@
 p {
   line-height: 30px;
+  margin: 80px 0px 80px;
 }
 body {
   background-color: #5c48d2;
-  font: 16px Verdana, Tahoma, Arial, sans-serif;
-}
-
-header h1 {
-  font-size: 48px;
-  color: white;
-  line-height: 200px;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 16px;
   text-align: center;
 }
 
+h1 {
+  font-size: 48px;
+  color: white;
+  line-height: 200px;
+}
+
+h2 {
+  color: #190f33;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+h3 {
+  color: #190f33;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
 .main-block {
   display: flex;
   flex-direction: column;
@@ -71,6 +94,7 @@ section {
 .informations {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 #about-me img {
   height: 250px;
@@ -80,11 +104,16 @@ section {
   margin: 50px;
 }
 
+#about-me p {
+  text-align: justify;
+  margin-top: 0;
+}
+
 p#name {
   color: #190f33;
   font-size: 38px;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin: 50px 0 50px;
 }
 
 p#city {
@@ -93,19 +122,7 @@ p#city {
   font-style: italic;
 }
 
-#about-me h3 {
-  color: #190f33;
-  font-size: 26px;
-  font-weight: bold;
-  margin-bottom: 40px;
-}
-
-#about-me p {
-  text-align: justify;
-}
-
 #education p {
-  text-align: center;
   margin: 80px 0px 80px;
 }
 
@@ -122,10 +139,19 @@ p#city {
   object-fit: contain;
 }
 
-#education h2 {
-  color: #190f33;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 80px;
-  text-align: center;
+.project {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.project-list {
+}
+.project img {
+  width: 500px;
+  margin-right: 60px;
+}
+
+.project ul {
+  text-align: left;
 }
