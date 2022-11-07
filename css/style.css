@@ -7,7 +7,8 @@ body {
 }
 
 header h1 {
-  font: 48px white;
+  font-size: 48px;
+  color: white;
   line-height: 200px;
   text-align: center;
 }
@@ -101,4 +102,30 @@ p#city {
 
 #about-me p {
   text-align: justify;
+}
+
+#education p {
+  text-align: center;
+  margin: 80px 0px 80px;
+}
+
+#education p span {
+  font-weight: bold;
+}
+.logos {
+  display: flex;
+  align-content: center;
+}
+
+.logos img {
+  height: 100px;
+  object-fit: contain;
+}
+
+#education h2 {
+  color: #190f33;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: center;
 }
