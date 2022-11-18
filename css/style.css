@@ -157,6 +157,9 @@ p#city {
   margin-bottom: 100px;
 }
 
+.project:hover {
+  transform: scale(1.2);
+}
 .project img {
   width: 500px;
   margin-right: 60px;
